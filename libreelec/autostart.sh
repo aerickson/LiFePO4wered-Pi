@@ -1,3 +1,3 @@
 (
-  /usr/sbin/lifepo4wered-daemon
+  /storage/LiFePo4wered/lifepo4wered-daemon
 )&

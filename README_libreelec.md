@@ -1,6 +1,30 @@
 # LiFePO4wered host software on LibreElec
 
-from Roman Sarin
+## aerickson's modified process (based on Raman's)
+
+1. compile this repo on RPi (`make all`)
+2. enable i2c
+  - turn off pi
+  - mount drive in another computer and add lines below to end of config.txt
+    - `dtparam=i2c1=on`
+    - `dtparam=i2s=on`
+  - put card back in and start pi back up
+3. install on libreelec host
+  ```cd libreelec
+  ./install.sh HOSTNAME```
+3. reboot pi
+4. green light should be solid once booted if it's working
+  - `/storage/LiFePo4wered/lifepo4wered-cli get` should have lots of variables
+
+### aerickson TODO
+
+- get this on master
+  - IFDEFs vs changing code
+- steps on how to compile on x68/x86
+
+## from Raman Sarin
+
+from https://hackaday.io/project/9461-lifepo4weredpi/log/56032-lifepo4wered-host-software-on-libreelec
 
 ```
 1. Get another SD Card and install Raspbian
