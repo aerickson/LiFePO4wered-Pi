@@ -1,6 +1,6 @@
 # LiFePO4wered host software on LibreElec
 
-## aerickson
+## 2023: aerickson
 
 ### notes on Raman's process
 
@@ -30,7 +30,7 @@ If you don't have annother RPi for Step 1, create a new Raspian image on a spare
 4. reboot RPi and test
   - if working
     - green light should be solid once booted
-  - `/storage/LiFePo4wered/lifepo4wered-cli get` should have lots of variables
+    - `/storage/LiFePo4wered/lifepo4wered-cli get` should have lots of variables
 
 ### TODO
 
@@ -38,7 +38,7 @@ If you don't have annother RPi for Step 1, create a new Raspian image on a spare
   - IFDEFs vs changing code
 - steps on how to compile on x68/x86
 
-## from Raman Sarin
+## 2017: Raman Sarin
 
 from https://hackaday.io/project/9461-lifepo4weredpi/log/56032-lifepo4wered-host-software-on-libreelec
 
