@@ -11,7 +11,7 @@
 
 Works around path issues.
 
-If you don't have annother RPi for Step 1, create a new Raspian image on a spare SD card and then copy the binaries to a USB stick like Raman describes).
+If you don't have annother RPi for Step 1, create a new Raspian image on a spare SD card and then copy the binaries to a USB stick (like Raman describes).
 
 1. compile this repo on another RPi
   - `make all`
