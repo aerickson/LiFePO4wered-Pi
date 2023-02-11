@@ -10,10 +10,12 @@
     - `dtparam=i2s=on`
   - put card back in and start pi back up
 3. install on libreelec host
-  ```cd libreelec
-  ./install.sh HOSTNAME```
-3. reboot pi
-4. green light should be solid once booted if it's working
+  ```
+  cd libreelec
+  ./install.sh HOSTNAME
+```
+4. reboot pi
+5. green light should be solid once booted if it's working
   - `/storage/LiFePo4wered/lifepo4wered-cli get` should have lots of variables
 
 ### aerickson TODO
