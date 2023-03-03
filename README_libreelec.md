@@ -36,6 +36,7 @@ If you don't have annother RPi for Step 1, create a new Raspian image on a spare
 
 - get this on master
   - IFDEFs vs changing code
+    - not necessary now? shutdown functions look the same
 - steps on how to compile on x68/x86
 
 ## 2017: Raman Sarin
